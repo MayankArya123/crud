@@ -5,6 +5,7 @@ import CreateUser from './Components/CreateUser';
 import EditUser from './Components/EditUser';
 import Login from './Components/Login';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
 import './App.css';
 import { AppStateContextProvider } from './AppContext/AppContext';
 import axios from 'axios'
