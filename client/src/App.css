@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+html{
+  font-size: 16px;
+}
+
+.navbarNav{
+  display: flex;
+  align-items: center;
+  height: 8rem;
+  justify-content: space-between;
+ 
+}
+
+Link,a {
+  text-decoration: none;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.card {
+  width: 90%;
+  background: whitesmoke;
+  margin-bottom: 1.3rem;
+  margin-top: 1.3rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+ position: relative;
+
+}
+
+.my-card-footer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+
+  justify-content:space-around;
+
+}
+
+.row {
+  width: 100%;
+}
