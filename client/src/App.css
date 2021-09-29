@@ -1,21 +1,21 @@
-*{
+* {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
-html{
+html {
   font-size: 16px;
 }
 
-.navbarNav{
+.navbarNav {
   display: flex;
   align-items: center;
   height: 8rem;
   justify-content: space-between;
- 
 }
 
-Link,a {
+Link,
+a {
   text-decoration: none;
   margin-left: 3rem;
   margin-right: 3rem;
@@ -32,8 +32,7 @@ Link,a {
   justify-content: space-evenly;
   flex-direction: row;
   align-items: center;
- position: relative;
-
+  position: relative;
 }
 
 .my-card-footer {
@@ -41,8 +40,7 @@ Link,a {
   display: flex;
   align-items: center;
 
-  justify-content:space-around;
-
+  justify-content: space-around;
 }
 
 .row {
